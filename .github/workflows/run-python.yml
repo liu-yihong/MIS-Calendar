@@ -51,6 +51,7 @@ jobs:
       # Install Python packages
       - name: Install Python Packages
         run: |
+          pip install --upgrade pip
           pip install -r requirements.txt
       # Run Python script
       - name: Run Python script
