@@ -14,4 +14,4 @@ if __name__ == '__main__':
     print(c.events)
     
     with open('MISConferenceCalendar.ics', 'w') as my_file:
-    my_file.write(str(c))
+        my_file.write(str(c))
